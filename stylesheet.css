@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@font-face {
+    font-family: 'LaraLijic';
+    src: url('LaraLijic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.naslovi h1 {
+    font-family: 'LaraLijic';
+    font-size: 500%;
+    text-align: center;
+    color: rgb(63, 160, 56);
+    
+}
+
+.naslovi h2 {
+    font-family: 'Rubik';
+    text-align: center;
+    color: rgb(159, 237, 160);
+    font-size: 30px;
+}
+
+.naslovi h3 {
+    font-family: 'Rubik';
+    text-align: center;
+    color: black;
+}	
+.naslovi h4 {
+    font-family: 'Rubik';
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+
+body {
+    background-image: url('slike/pozadina.jpg'); 
+    background-size: cover;
+    background-position: center;
+    font-family: 'Rubik';
+    font-size: 16px; 
+	color:white;
+    
+}
+
+img {
+    width: 30%;
+    height: 30%;
+}
+video.center {
+
+    display: block;
+    
+    margin-left: auto;
+    
+    margin-right: auto;
+    align-items: center;
+    }
+
+.text {
+    text-align: center;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+}
+
+ul {
+	display:inline;
+	align-items: center;
+}
+
+li:hover {
+		 background: #38fdb5;
+		}
+
+
+.vjezbe p {
+	color:white; 
+}
+
+.videozapis 
+{
+    display:flex;
+    align-items: center;
+}
+
